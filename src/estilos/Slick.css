@@ -1,0 +1,53 @@
+
+.full {
+
+    width: auto;
+    background-color: #2A2550;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.contenedor-slick {
+
+ width: 90%;
+ margin: 0 auto; 
+}
+
+.card-slick {
+
+    
+    background-color: #2A2550;
+    border-radius: 8px;
+    
+
+    height: 250px;
+    color: #fff;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.top-slick h1 {
+
+    font-size: 1rem;
+}
+
+.top-slick > img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .2s ease-in-out;
+    border-radius: 8px;
+}
+
+.top-slick:hover > img { transform: scale(.9); }
+
+.bottom-slick {
+
+    margin: 10px 20px;
+}

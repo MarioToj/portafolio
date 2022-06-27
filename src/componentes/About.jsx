@@ -5,8 +5,9 @@ const About = () => {
   return (
     <div className='about-container'>
         <div className='about-desc'>
-            <h3>Led tell you something about me</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet praesentium quas numquam incidunt corporis tempora culpa repellat nemo delectus dolore.
+            <h3>Let me tell you something about me</h3>
+            <p>Hi, I'm Mario and I started programming because it's something that entertains me and I like it. I think my strengths in this field would be css, html, react and layout with worpress themes.
+
             </p>
         </div>
         <div className="about-imagen">

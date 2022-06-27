@@ -3,13 +3,11 @@ import Navbar from './componentes/Navbar';
 import About from './componentes/About';
 import Info from './componentes/Info';
 import Footer from './componentes/Footer';
-import Slider from './componentes/Slider';
+
+
 import './App.css';
 import { useEffect, useState } from 'react';
-
-
-
-
+import Slick from './componentes/Slick';
 
 
 function App() {
@@ -33,7 +31,7 @@ function App() {
      <Navbar isScrolling={ ScrollHeight } />
      <Cover />
      <About />
-     <Slider />
+     <Slick />
      <Info />
      <Footer />
     </div>
