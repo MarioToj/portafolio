@@ -5,7 +5,7 @@ export const datosApi = [
     {
         id: 1,
         title: 'Heroes App',
-        link: 'https://www.facebook.com/',
+        link: 'https://mariotoj.github.io/heores-spaq/',
         linkImg: require('../imagenes/heroes.jpg'),
     },
     {
