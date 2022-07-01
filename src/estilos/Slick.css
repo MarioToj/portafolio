@@ -31,9 +31,37 @@
   margin: 0 -10px;
 }
 
+.top-slick {
+
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 8px;
+    transition: all .2s ease-in-out;
+}
+
+.top-slick:hover { transform: scale(.9); }
+
 .top-slick h1 {
 
     font-size: 1rem;
+}
+
+.top-slick a {
+
+    color: #FFA500;
+    font-size: 26px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.top-slick a:hover {
+
+    border-bottom: 5px solid #FFA500;
 }
 
 .top-slick > img {
@@ -45,7 +73,6 @@
     border-radius: 8px;
 }
 
-.top-slick:hover > img { transform: scale(.9); }
 
 .bottom-slick {
 

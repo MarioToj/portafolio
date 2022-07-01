@@ -50,12 +50,8 @@ const Slick = () => {
       <Slider { ...settings } >
       { datosApi.map((item)=>(
         <div className="card-slick">
-            <div className="top-slick">
-                <img src={ item.linkImg } alt={ item.title } />
-                <h1>{ item.title }</h1>
-            </div>
-            <div className="bottom-slick">
-                <p><a target='_blank' rel='noreferrer' href={ item.link }>link</a> </p>
+            <div className="top-slick" style={{ backgroundImage: `url(${item.linkImg})` }} >
+            <h1><a target='_blank' rel='noreferrer' href={ item.link }>{ item.title }</a> </h1>
             </div>
         </div>
       ))}
