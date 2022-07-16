@@ -33,7 +33,8 @@
 
 .top-slick {
 
-    height: 200px;
+    height: 220px;
+    width: 90%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -17,6 +17,12 @@ export const datosApi = [
     },
     {
         id: 3,
+        title: 'Diario',
+        link: 'https://dynamic-cannoli-592b0c.netlify.app',
+        linkImg: require('../imagenes/notas.jpg'),
+    },,
+    {
+        id: 3,
         title: 'Heroes App',
         link: 'https://mariotoj.github.io/heores-spaq/',
         linkImg: require('../imagenes/heroes.jpg'),
@@ -27,5 +33,6 @@ export const datosApi = [
         link: 'https://remarkable-bavarois-d93eb0.netlify.app',
         linkImg: require('../imagenes/youtube.jpg'),
     }
+    
 
 ]
